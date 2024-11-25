@@ -1,3 +1,19 @@
-body {
-    
+/* Color Variables */
+:root {
+    --primary-color: #91278F; /** Purple */
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.btn-primary { 
+    color: black;
+    background-color: var(--primary-color);
+    border: none;
+    display: flex;
 }

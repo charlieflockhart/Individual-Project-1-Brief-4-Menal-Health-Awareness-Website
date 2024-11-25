@@ -26,6 +26,14 @@ main {
     padding: 10px;
 }
 
+.quote-box {
+    border: 2px solid ; 
+    color:red;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffe6e6;
+}
+
 footer {
     background-color: var(--primary-color);
     position: fixed;

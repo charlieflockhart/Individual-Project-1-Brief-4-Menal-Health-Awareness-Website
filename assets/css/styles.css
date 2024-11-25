@@ -9,6 +9,9 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .btn-primary { 
@@ -18,6 +21,12 @@ header {
     display: flex;
 }
 
+footer {
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Small screens and up */
 @media screen and (min-width: 576px) {

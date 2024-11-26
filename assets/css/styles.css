@@ -118,7 +118,7 @@ main {
     font-style: normal;
 
     color:var(--secondary-color);
-    text-shadow: black 1px 1px 1px;
+    text-shadow: black 0.5px 0.5px 0.5px;
     background-color: white;
 
     padding: 20px;

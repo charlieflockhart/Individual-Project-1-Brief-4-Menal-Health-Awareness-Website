@@ -120,6 +120,10 @@ main {
     margin: 15px;
 }
 
+.card-title{
+    text-align: center;
+}
+
 #carouselExampleControls {
     padding: 10px;
     margin: 0 auto;

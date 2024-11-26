@@ -1,7 +1,8 @@
 /* Color Variables */
 :root {
     --primary-color: #CCA7DB; /** Light Purple */
-    --background-color: #C7D9E3 /** Light Blue */
+    --background-color: #C7D9E3; /** Light Blue */
+    --main-text-background-opacity: #E3ECF1; /**Lighter Blue than C7D9E3 */
 }
 
 body {
@@ -10,9 +11,10 @@ body {
 
 header {
     background-color: var(--primary-color);
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5px;
     position: fixed;
     top: 0;
@@ -25,11 +27,15 @@ header {
     background-color: white;
     border: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 40px;
+    min-width: 85px;
 }
 
 main {
-    margin-top: 50px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #quote-title {
@@ -54,22 +60,18 @@ main {
 }
 
 .content-box {
-    border: 2px solid ; 
     color:black;
     padding: 15px;
     text-align: center;
-    background-color: white;
+    background-color: var(--main-text-background-opacity);
 }
 
 .allroundedboxes{
-    border: 2px solid ; 
     color:black;
     padding: 20px;
     text-align: center;
     background-color: white;
-    border-radius: 10px;  
     padding: 15px;
-    width: 97%;
     margin: 0 auto; 
 }
 .card {
@@ -100,11 +102,34 @@ main {
     margin: 0 auto;
 }
 
+/** Contact Us Page */
+
+#contact-us-title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#helpful-resources-title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#mental-health-title{
+    width: 96%;
+    margin: 0 auto;
+}
+
 footer {
     background-color: var(--primary-color);
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.footer-copyright {
+    margin-bottom: 0px;
     
 }
 

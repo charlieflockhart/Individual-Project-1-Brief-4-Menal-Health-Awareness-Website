@@ -69,6 +69,8 @@ h2,h3,h5,p,a,li{
 
 .logo-image{
     border: var(--secondary-color) 2px solid;
+    width: 45px;
+    height: 45px;
 }
 
 main {
@@ -160,8 +162,6 @@ main {
 
 .carousel-indicators{
     margin-bottom: 1px;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .card-img-top{
@@ -187,6 +187,21 @@ main {
     text-align: center;
 }
 
+footer {
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    border: var(--secondary-color) 2px solid;
+}
+
+.footer-copyright {
+    margin-bottom: 0px;
+    
+}
+
 /** Contact Us Page */
 
 #contact-us-title{
@@ -204,24 +219,31 @@ main {
     margin: 0 auto;
 }
 
-footer {
-    background-color: var(--primary-color);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 1000;
-    border: var(--secondary-color) 2px solid;
-}
 
-.footer-copyright {
-    margin-bottom: 0px;
-    
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
+    header {
+        background-color: var(--primary-color);
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        border: var(--secondary-color) 2px solid;
+    }
+
+    .logo-image{
+        border: var(--secondary-color) 2px solid;
+        width: 65px;
+        height: 65px;
+    }
+    
 
     .website-title {
         margin-bottom: -10px;
@@ -301,7 +323,36 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    
+    /** Contact Us Page */
+    
+    #contact-us-title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #helpful-resources-title{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    #mental-health-title{
+        width: 96%;
+        margin: 0 auto;
+        padding-bottom: 35px;
+    }
 
+    .dropdown-menu{
+        font-size: 40px;
+    }
+
+    .contact-us-bottom-image{
+        border: white 2px solid ; 
+        background-image: url('../images/contact-us.jpg');
+        background-size: cover;
+        background-position: center;
+        height:500px;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */

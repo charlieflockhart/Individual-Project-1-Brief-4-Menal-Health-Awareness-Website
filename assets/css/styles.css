@@ -102,6 +102,11 @@ main {
     justify-content: center;
 }
 
+.quote-content {
+    font-family: "Dongle", sans-serif;
+    font-size: 130%;
+}
+
 .title-box-padding{
     padding-top: 20px;
     padding-bottom: 5px;
@@ -214,13 +219,88 @@ footer {
     
 }
 
-/* Small screens and up */
-@media screen and (min-width: 576px) {
-
-}
-
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
+
+    .website-title {
+        margin-bottom: -10px;
+        margin-left: 80px;
+        display: flex;
+        text-decoration: none;
+        font-size: 80px;
+    }
+
+    .montserrat-title {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+      }
+
+    main {
+        margin-top: 70px;
+        margin-bottom: 130px;
+    }
+
+    .quote-content {
+        font-family: "Dongle", sans-serif;
+        font-size: 230%;
+    }
+    
+
+    h2,h3,h5,p,a,li{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 25px;
+    }
+
+
+    .card {
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 420px;
+        margin: 0 auto;
+    }
+    .card-body {
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        margin:5px;
+        font-size: 30px;
+    }
+
+    #carouselExampleControls {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    
+    .carousel-indicators{
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .card-img-top{
+        margin-top: 10px;
+        margin-inline: auto;
+        max-height: 360px;
+        max-width: 360px;
+        border-radius: 20px;
+    
+    }
+
+    .card-constant-size{
+        width: 300px;
+        height: 270px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 

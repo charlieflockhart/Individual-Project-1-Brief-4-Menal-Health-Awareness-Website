@@ -33,7 +33,7 @@ header {
 
 .website-title {
     margin-bottom: -10px;
-    margin-left: -20px;
+    display: flex;
 }
 
 .montserrat-title {
@@ -146,6 +146,7 @@ main {
 }
 
 .carousel-indicators{
+    margin-bottom: 1px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -157,6 +158,20 @@ main {
     max-width: 260px;
     border-radius: 20px;
 
+}
+
+.card-constant-size{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text{
+    padding-top: 3px;
+    text-align: center;
 }
 
 /** Contact Us Page */

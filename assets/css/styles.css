@@ -110,6 +110,7 @@ main {
     background-color: var(--main-text-background-opacity);
     width: 300px;
     height: 350px;
+    margin: 0 auto;
 }
 
 .card-body {

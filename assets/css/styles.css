@@ -12,6 +12,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .btn-primary { 
@@ -88,7 +89,11 @@ main {
 }
 
 .card-body {
-    padding: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center
 }
 
 #carouselExampleControls {
@@ -99,7 +104,13 @@ main {
 .carousel-indicators{
     display: flex;
     justify-content: space-evenly;
-    
+}
+
+.card-img-top{
+    padding: 10px;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 footer {
@@ -107,6 +118,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 /* Small screens and up */

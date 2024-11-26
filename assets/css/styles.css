@@ -1,6 +1,7 @@
 /* Color Variables */
 :root {
     --primary-color: #CCA7DB; /** Light Purple */
+    --secondary-color: #aa75c0; /** Darker Purple */
     --background-color: #C7D9E3; /** Light Blue */
     --main-text-background-opacity: #E3ECF1; /**Lighter Blue than C7D9E3 */
 }
@@ -20,6 +21,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
+    border: var(--secondary-color) 2px solid;
 }
 
 .dongle-regular {
@@ -37,14 +39,14 @@ header {
 .montserrat-title {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
-h2,h3,p,a {
+h2,h3,h5,p,a,li{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -57,10 +59,15 @@ h2,h3,p,a {
     justify-content: center;
     max-height: 40px;
     min-width: 85px;
+    border: var(--secondary-color) 2px solid;
+}
+
+.logo-image{
+    border: var(--secondary-color) 2px solid;
 }
 
 main {
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 60px;
 }
 
@@ -86,7 +93,7 @@ main {
 
 .content-box {
     color:black;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     background-color: var(--main-text-background-opacity);
 }
@@ -102,7 +109,6 @@ main {
 
     padding: 20px;
     text-align: center;
-    padding: 15px;
     margin: 0 auto; 
     
 }
@@ -117,7 +123,7 @@ main {
     padding: 2px;
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    margin:5px;
 }
 
 .card-title{
@@ -135,16 +141,18 @@ main {
 }
 
 .card-img-top{
-    padding-top: 20px;
-    max-height: 200px;
-    max-width: 200px;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-inline: auto;
+    max-height: 260px;
+    max-width: 260px;
+    border-radius: 20px;
+
 }
 
 /** Contact Us Page */
 
 #contact-us-title{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -165,6 +173,7 @@ footer {
     width: 100%;
     text-align: center;
     z-index: 1000;
+    border: var(--secondary-color) 2px solid;
 }
 
 .footer-copyright {

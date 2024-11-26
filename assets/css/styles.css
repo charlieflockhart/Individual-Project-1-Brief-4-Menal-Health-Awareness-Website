@@ -1,6 +1,11 @@
 /* Color Variables */
 :root {
-    --primary-color: #91278F; /** Purple */
+    --primary-color: #CCA7DB; /** Light Purple */
+    --background-color: #C7D9E3 /** Light Blue */
+}
+
+body {
+    background-color: var(--background-color);
 }
 
 header {
@@ -17,7 +22,7 @@ header {
 
 .btn-primary { 
     color: black;
-    background-color: var(--primary-color);
+    background-color: white;
     border: none;
     display: flex;
 }
@@ -41,59 +46,41 @@ main {
     background-color: #ffe6e6;
 }
 
-#mental-health-title {
-    padding: 2px;
+.title-box-padding{
+    padding-top: 20px;
+    padding-bottom: 5px;
     width: 97%;
     margin: 0 auto;
 }
 
-.mental-health-title-box {
+.content-box {
     border: 2px solid ; 
-    color:red;
-    padding: 20px;
+    color:black;
+    padding: 15px;
     text-align: center;
-    background-color: #ffe6e6;
-    
+    background-color: white;
 }
 
-#mental-health-content {
-    padding: 2px;
+.allroundedboxes{
+    border: 2px solid ; 
+    color:black;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;  
+    padding: 15px;
     width: 97%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
-
-.mental-health-content-box {
-    border: 2px solid ; 
-    color:red;
-    padding: 20px;
-    text-align: center;
-    background-color: #ffe6e6;
-}
-
-#symptoms-of-decline-title {
-    padding: 2px;
-    width: 97%;
-    margin: 0 auto;
-}
-
-.symptoms-of-decline-content-box {
-    border: 2px solid ; 
-    color:red;
-    padding: 20px;
-    text-align: center;
-    background-color: #ffe6e6;
-}
-
 .card {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--primary-color);
 }
 
 .card-body {
-    padding: 10px;
+    padding: 2px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    align-items: center
+    margin: 15px;
 }
 
 #carouselExampleControls {

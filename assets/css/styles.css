@@ -444,6 +444,14 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .card-actvities{
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 450px;
+        margin: 0 auto;
+        
+    }
     
     .contact-us-bottom-image{
         border: white 2px solid ; 

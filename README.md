@@ -2,7 +2,7 @@
 
 Mental Health is a mental health awareness platform designed to educate visitors about mental well-being. It explains the importance of mental health, lists common symptoms of mental health challenges, and suggests ways to improve mental health, such as hobbies, social connections, and exercise. Additionally, it features uplifting messages to inspire hope and resilience. For resources or assistance, the site directs users to its contact section.
 
-![Responsice Mockup](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Responsive.png)
+![Responsice Mockup](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Responsive.png)
 
 ## Features 
 
@@ -13,50 +13,50 @@ Mental Health is a mental health awareness platform designed to educate visitors
   - Featured on both pages, the navigation bar includes a link to either the Contact Page, Or the Home Page, depending on which page you are on to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Navbar.png)
+![Nav Bar](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Navbar.png)
 
 - __The Landing Page__
 
   - The landing includes a photograph with text overlay to allow the user to see the a welcoming message to ensure the user about their mental health and some information under the image telling the user what mental health is. 
   - This section introduces the user to Mental Health with ensurance, calmness and some information.
 
-![Landing Page](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Landing-page.png)
+![Landing Page](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Landing-page.png)
 
 - __Symptoms Of Mental Health Difficulties__
 
   - The user will see the Symptoms of mental health difficulties, either in yourself or others. This should encourage the user to consider contacting mental health or others listed in the contact page, if they have or think they have symptoms of unhealthy mental health. 
 
-![Symptoms Of Mental Health Difficulties](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Symptoms-of-mental-health-difficulties-page.png)
+![Symptoms Of Mental Health Difficulties](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Symptoms-of-mental-health-difficulties-page.png)
 
 - __How To Improve Your Mental Health__
 
   - This section will allow the user to see exactly what activites they can do to help / improve their mental health, with a interactive card carousel.
 
-![How To Improve Your Mental Health](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/How-to-improve-your-mental-health.png)
+![How To Improve Your Mental Health](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/How-to-improve-your-mental-health.png)
 
 - __Uplifting Messages__
 
   - This section will give the user messages from previous users that have contacted the website about how to improve their mental health and ensuring the user that they are not on their own.
 
-![Uplifting Messages](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Uplifting-messages.png)
+![Uplifting Messages](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Uplifting-messages.png)
 
 - __The Footer__ 
 
   - A Copyright of the website is displayed in the middle of the footer.
 
-![Footer](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Footer.png)
+![Footer](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Footer.png)
 
 - __Contact Page__
 
   - This page will allow the user to contact the Mental Health through Phone or Email displayed. 
 
-![Contact](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Contact-Us-Page-2.png)
+![Contact](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Contact-Us-Page-2.png)
 
 - __Helpful Resources__
   
   - This will display 4 Dropdowns, for the user to interact with, displaying information on other mental health organisations and how to contact them.
 
-![Helpful Resources](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Helpful-resources-page-2.png)
+![Helpful Resources](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Helpful-resources-page-2.png)
 
 ### Features Left to Implement
 
@@ -82,27 +82,27 @@ Mental Health is a mental health awareness platform designed to educate visitors
     
 - Index Page
   
-![Index Page](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Validator/Index-HTML-Validated.png)
+![Index Page](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Validator/Index-HTML-Validated.png)
 
 - Contact Us Page
   
-![Contact Us Page](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Validator/Contact-Us-HTML-Validated.png)
+![Contact Us Page](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Validator/Contact-Us-HTML-Validated.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
  
-![CSS](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Validator/Styles-CSS-Validated.png)
+![CSS](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Validator/Styles-CSS-Validated.png)
 
 - Lighthouse
   - Performance lower than expected due to big image resoultions [Chrome Lighthouse]
  
 - Mobile
   
-![Mobile](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Lighthouse/Mobile-Lighthouse-Test.png)
+![Mobile](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Lighthouse/Mobile-Lighthouse-Test.png)
 
 - Desktop
   
-![Desktop](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/blob/main/readme-files/Lighthouse/Desktop-Lighthouse-Test.png)
+![Desktop](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Lighthouse/Desktop-Lighthouse-Test.png)
 
 ### Unfixed Bugs
 
@@ -115,7 +115,7 @@ Mental Health is a mental health awareness platform designed to educate visitors
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - [Mental Health](https://charlieflockhart.github.io/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/index.html)
+The live link can be found here - [Mental Health](https://charlieflockhart.github.io/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/index.html)
 
 
 ## Credits 

@@ -356,16 +356,20 @@ footer {
 
     .card-symptoms-in-you{
         background-color: var(--main-text-background-opacity);
-        width: 800px;
-        height: 420px;
+        width: 400px;
+        height: 460px;
         margin: 0 auto;
+        display: flex;
+        grid-column: 2;
     }
     
     .card-symptoms-in-others{
         background-color: var(--main-text-background-opacity);
-        width: 800px;
-        height: 420px;
+        width: 400px;
+        height: 460px;
         margin: 0 auto;
+        display: flex;
+        grid-column: 2;
     }
 
     .card-actvities{
@@ -455,12 +459,28 @@ footer {
 }
 
 
-/* xl devices (large desktops, 1540px and up) */
-@media screen and (min-width: 1540px) {
+/* xl devices (large desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
 
     main {
         margin-top: 90px;
-        margin-bottom: 640px;
+        margin-bottom: 100px;
+    }
+
+    .content-box > p {
+        color:black;
+        padding: 20px;
+        text-align: center;
+        width: 800px;
+        margin-inline: auto;
+        background-color: var(--main-text-background-opacity);
+    }
+
+    .content-box {
+        color:black;
+        text-align: center;
+        margin-inline: auto;
+        background-color: var(--main-text-background-opacity);
     }
 
     .card {
@@ -468,6 +488,30 @@ footer {
         width: 1200px;
         height: 430px;
         margin: 0 auto;
+    }
+
+    .card-actvities{
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 460px;
+        margin: 0 auto;
+    }
+
+    .carousel-indicators{
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 40%;
+        margin-inline: auto;
+    }
+
+    .dropdown-menu{
+        font-size: 70px;
+        z-index: 10;
+    }
+
+    .accoordion-collapse{
+        font-size: 50px;
     }
 
     .contact-us-bottom-image{
@@ -481,3 +525,16 @@ footer {
     }
 }
 
+/* xxl devices (large desktops, 2560px and up) */
+@media screen and (min-width: 2560px) {
+
+    .carousel-indicators{
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 40%;
+        margin-inline: auto;
+    }
+
+
+}

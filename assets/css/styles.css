@@ -437,6 +437,11 @@ footer {
     
     }
 
+    .dropdown-menu{
+        font-size: 70px;
+        z-index: 10;
+    }
+
     .card-constant-size{
         width: 1200px;
         height: 270px;
@@ -454,6 +459,8 @@ footer {
         height:800px;
         bottom: 0;
     }
+
+    
   
 
 }

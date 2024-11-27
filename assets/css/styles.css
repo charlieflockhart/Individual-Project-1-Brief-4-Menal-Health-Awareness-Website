@@ -144,6 +144,35 @@ main {
     margin: 0 auto;
 }
 
+.card-symptoms-in-you{
+    background-color: var(--main-text-background-opacity);
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.card-symptoms-in-others{
+    background-color: var(--main-text-background-opacity);
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.card-actvities{
+    background-color: var(--main-text-background-opacity);
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    
+}
+
+.card-messages{
+    background-color: var(--main-text-background-opacity);
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
 .card-body {
     padding: 2px;
     display: flex;
@@ -166,7 +195,7 @@ main {
 
 .card-img-top{
     margin-top: 10px;
-    margin-inline: auto;
+    margin-left: 6%;
     max-height: 260px;
     max-width: 260px;
     border-radius: 20px;
@@ -174,6 +203,7 @@ main {
 }
 
 .card-constant-size{
+    padding-top: 10px;
     width: 300px;
     height: 170px;
     object-fit: cover;
@@ -308,7 +338,7 @@ footer {
     
     .card-img-top{
         margin-top: 10px;
-        margin-inline: auto;
+        margin-left: 27%;
         max-height: 360px;
         max-width: 360px;
         border-radius: 20px;
@@ -322,6 +352,35 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .card-symptoms-in-you{
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 420px;
+        margin: 0 auto;
+    }
+    
+    .card-symptoms-in-others{
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 420px;
+        margin: 0 auto;
+    }
+
+    .card-actvities{
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 420px;
+        margin: 0 auto;
+        
+    }
+    
+    .card-messages{
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 420px;
+        margin: 0 auto;
     }
     
     /** Contact Us Page */
@@ -352,21 +411,73 @@ footer {
         background-size: cover;
         background-position: center;
         height:500px;
+        bottom: 0;
     }
 }
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+    .card {
+        background-color: var(--main-text-background-opacity);
+        width: 800px;
+        height: 430px;
+        margin: 0 auto;
+    }
+
+    .card-img-top{
+        margin-top: 10px;
+        margin-left: 25%;
+        max-height: 400px;
+        max-width: 400px;
+        border-radius: 20px;
+    
+    }
+
+    .card-constant-size{
+        width: 1200px;
+        height: 270px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contact-us-bottom-image{
+        border: white 2px solid ; 
+        background-image: url('../images/contact-us.jpg');
+        background-size: cover;
+        background-position: center;
+        height:800px;
+        bottom: 0;
+    }
+  
 
 }
 
 
-/* xl devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+/* xl devices (large desktops, 1540px and up) */
+@media screen and (min-width: 1540px) {
 
+    main {
+        margin-top: 90px;
+        margin-bottom: 640px;
+    }
+
+    .card {
+        background-color: var(--main-text-background-opacity);
+        width: 1200px;
+        height: 430px;
+        margin: 0 auto;
+    }
+
+    .contact-us-bottom-image{
+        padding-top: 800px;
+        border: white 2px solid ; 
+        background-image: url('../images/contact-us.jpg');
+        background-size: cover;
+        background-position: center;
+        height:800px;
+        bottom: 0;
+    }
 }
 
-/* xxl devices (larger desktops, 1400px and up) */
-@media screen and (min-width: 1400px) {
-
-}

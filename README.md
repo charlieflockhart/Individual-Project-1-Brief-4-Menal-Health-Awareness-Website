@@ -4,9 +4,32 @@ Mental Health is a mental health awareness platform designed to educate visitors
 
 ![Responsice Mockup](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Responsive.png)
 
+## Wireframe 
+
+### Iterations
+  
+![Initial Design](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Wireframes/Iterations.png)
+
+### Mobile
+  
+![Mobile Design](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Wireframes/Mobile.png)
+
+### Tablet
+  
+![Tablet Design](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Wireframes/Tablet.png)
+
+### Laptop / Desktop
+  
+![Laptop / Desktop Design](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Wireframes/Desktop.png)
+
 ## Features 
 
 ### Existing Features
+
+- __Favicon__
+  - Nice Logo On the Webpage Title and the Navbar
+ 
+![Favicon](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/assets/favicon/ms-icon-310x310.png)
 
 - __Basic Nav Bar__
 

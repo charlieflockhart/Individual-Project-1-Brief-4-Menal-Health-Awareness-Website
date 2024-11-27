@@ -95,6 +95,20 @@ Mental Health is a mental health awareness platform designed to educate visitors
   
 ## Testing 
 
+| Location               | Feature         | Expected Outcome                                                | Pass/Fail |
+| ---------------------- | --------------- | --------------------------------------------------------------- | --------- |
+| Index / Nav Bar        | Contact Button  | Takes User to contact-us.html page                              | Pass      |
+| Index / Symptoms       | Previous Button | Take User to previous Card Carousel                             | Pass      |
+| Index / Symptoms       | Next Button     | Take User to next Card Carousel                                 | Pass      |
+| Index / Improve        | Previous Button | Take User to previous Card Carousel                             | Pass      |
+| Index / Improve        | Next Button     | Take User to next Card Carousel                                 | Pass      |
+| Index / Messages       | Auto Scroll     | Automatically Scrolls after 6 Seconds to the next Card Carousel | Pass      |
+| Contact-Us / Nav Bar   | Home Button     | Takes User to index.html page                                   | Pass      |
+| Contact-Us / Dropbox 1 | Link            | Creates a new Tab and takes User to Childline Website           | Pass      |
+| Contact-Us / Dropbox 2 | Link            | Creates a new Tab and takes User to The Mix Website             | Pass      |
+| Contact-Us / Dropbox 3 | Link            | Creates a new Tab and takes User to CALM Website                | Pass      |
+| Contact-Us / Dropbox 4 | Link            | Creates a new Tab and takes User to SANEline Website            | Pass      |
+
 - Conducted multiple tests on Emulated Mobile, Ipad and Laptop and Desktop. Along with a Manual Test On  Mobile, Ipad and Laptop and Desktop, testing all webpages and links are working correctly. 
 - All information can be read clearly and the page is responsive.
 

@@ -438,7 +438,6 @@ footer {
     }
 
     .dropdown-menu{
-        font-size: 70px;
         z-index: 10;
     }
 
@@ -513,7 +512,7 @@ footer {
     }
 
     .dropdown-menu{
-        font-size: 70px;
+        font-size: 60px;
         z-index: 10;
     }
 

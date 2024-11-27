@@ -1,4 +1,4 @@
-# [Individual Project 1 Brief 4 Mental Health Awareness Website | Charlie Flockhart](https://charlieflockhart.github.io/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/index.html)
+# [Individual Project 1 - Brief 4 - Mental Health Awareness Website | Charlie Flockhart](https://charlieflockhart.github.io/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/index.html)
 
 Mental Health is a mental health awareness platform designed to educate visitors about mental well-being. It explains the importance of mental health, lists common symptoms of mental health challenges, and suggests ways to improve mental health, such as hobbies, social connections, and exercise. Additionally, it features uplifting messages to inspire hope and resilience. For resources or assistance, the site directs users to its contact section.
 
@@ -93,7 +93,7 @@ Mental Health is a mental health awareness platform designed to educate visitors
 - Add More Images/Content to the Contact Us Page Under "Helpful Resources".
 - Lighthouse Score Performance low due to high resoultion images.
   
-## Testing 
+## QA 
 
 | Location               | Feature         | Expected Outcome                                                | Pass/Fail |
 | ---------------------- | --------------- | --------------------------------------------------------------- | --------- |
@@ -111,6 +111,10 @@ Mental Health is a mental health awareness platform designed to educate visitors
 
 - Conducted multiple tests on Emulated Mobile, Ipad and Laptop and Desktop. Along with a Manual Test On  Mobile, Ipad and Laptop and Desktop, testing all webpages and links are working correctly. 
 - All information can be read clearly and the page is responsive.
+
+### Bugs
+
+- No Bugs Found
 
 ### Validator Testing 
 
@@ -140,10 +144,6 @@ Mental Health is a mental health awareness platform designed to educate visitors
 - Desktop
   
 ![Desktop](https://github.com/charlieflockhart/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/blob/main/readme-files/Lighthouse/Desktop-Lighthouse-Test.png)
-
-### Unfixed Bugs
-
-- No Bugs Found
 
 ## Deployment
 

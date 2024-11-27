@@ -1,4 +1,4 @@
-# [Individual Project 1 Brief 4 Mental Health Awareness Website | Charlie Flockhart](https://charlieflockhart.github.io/Individual-Project-1-Brief-4-Menal-Health-Awareness-Website/index.html)
+# [Individual Project 1 Brief 4 Mental Health Awareness Website | Charlie Flockhart](https://charlieflockhart.github.io/Individual-Project-1-Brief-4-Mental-Health-Awareness-Website/index.html)
 
 Mental Health is a mental health awareness platform designed to educate visitors about mental well-being. It explains the importance of mental health, lists common symptoms of mental health challenges, and suggests ways to improve mental health, such as hobbies, social connections, and exercise. Additionally, it features uplifting messages to inspire hope and resilience. For resources or assistance, the site directs users to its contact section.
 
